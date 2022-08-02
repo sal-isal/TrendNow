@@ -154,7 +154,9 @@ nav {
 }
 
 /* MAIN */
-main {
+
+/* Design */
+#design {
     background-color: #F1B814;
     margin-top: 10px;
     padding: 30px;
@@ -238,7 +240,7 @@ aside {
     height: 10px;
 }
 
-#design {
+#design-table {
     font-weight: bold;
     font-size: 1.5vw;
     border-collapse: collapse;
@@ -247,17 +249,17 @@ aside {
     text-align: center;
 }
 
-#design td, #design th {    
+#design-table td, #design-table th {    
     padding: 1vw;
 }
 
-#design tr td {
+#design-table tr td {
     color: #490B3D;
 }
 
-#design tr:nth-child(odd){background-color: #FF82AA;}
+#design-table tr:nth-child(odd){background-color: #FF82AA;}
 
-#design th {
+#design-table th {
   padding-top: 12px;
   padding-bottom: 12px;
   background-color: #BD1E51;
@@ -532,7 +534,7 @@ footer {
     }
     
 
-    #design {
+    #design-table {
         font-size: 2.5vw;
     }
 
